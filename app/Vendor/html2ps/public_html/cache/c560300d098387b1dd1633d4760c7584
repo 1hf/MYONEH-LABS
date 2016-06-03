@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>-- Coral Technologies --</title>
+	<link href="/Coral-Web-APP/favicon.ico" type="image/x-icon" rel="icon" /><link href="/Coral-Web-APP/favicon.ico" type="image/x-icon" rel="shortcut icon" /><link rel="stylesheet" type="text/css" href="/Coral-Web-APP/css/cake.generic.css?1415097281" /></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1></h1>
+		<a href="/Coral-Web-APP/"><img src="/Coral-Web-APP/img/logo.jpg?" border="0" alt="" /></a>		</div>
+		<div id="content">
+
+			
+			<h2>Missing Controller</h2>
+<p class="error">
+	<strong>Error: </strong>
+	<em>ImagesController</em> could not be found.</p>
+<p class="error">
+	<strong>Error: </strong>
+	Create the class <em>ImagesController</em> below in file: app\controllers\images_controller.php</p>
+<pre>
+&lt;?php
+class ImagesController extends AppController {
+
+	var $name = 'Images';
+}
+?&gt;
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app\views\errors\missing_controller.ctp</p>
+		</div>
+		<div id="footer">
+					</div>
+	</div>
+	<table class="cake-sql-log" id="cakeSqlLog_1416914656547466e07d7775_99518460" summary="Cake SQL Log" cellspacing="0" border = "0"><caption>(default) 0 query took  ms</caption>	<thead>
+		<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>
+	</thead>
+	<tbody>
+		</tbody></table>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>-- Login --</title>
+<link rel="stylesheet" type="text/css" href="/staging/css/style_login.css?1346299528" /><script type="text/javascript" src="/staging/js/jquery.js?1346299528"></script><script type="text/javascript" src="/staging/js/jquery-ui-1.8.8.custom.min.js?1346299528"></script><script type="text/javascript" src="/staging/js/functions.js?1357729063"></script><script type="text/javascript" src="/staging/js/validation.js?1346299528"></script></head>
+<body>
+<div id="main-wrapper" style="width:960px;">
+  <div id="container">
+    <div id="header">
+      <div class="logo">
+		<img src="/staging/img/logo.png?1346299528" width="205" height="78" border="0" alt="" />      </div>
+      <!--right-link-wrapper end -->
+     
+
+      
+      <div class="clear"></div>
+      <div  class="top-nav" >
+        <ul>
+          <li><a href="/staging/users/dashboard"  >Home</a></li>
+          <li><a href="/staging/registration"  >Register</a></li>
+          <li><a href="/staging/" class="current">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--Header end -->
+    <div class="content-aria" style="background-color:#fff;">
+    
+    <div class="banner">
+    	<img src="/staging/img/website/login.jpg?1346299528" width="960" height="180" border="0" alt="" />    </div>
+    
+    <script type="text/javascript">
+$(document).ready(function () {
+	document.getElementById('UserUsername').focus();
+});
+</script>
+<div class="login_wrapp">
+	<div class="login_box">
+		<h2>Login</h2>
+		<div class="error-message error_login">
+					</div>
+		<div class="clear"></div>
+		<form onsubmit="javascript:return validate_manual_login();" id="UserLoginForm" method="post" action="/staging/" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST" /><input type="hidden" name="data[_Token][key]" value="55f31e323a1be44ffa9b43e4f5b3a570c183c61e" id="Token1804325836" /></div>			<div class="user"><label>Username</label>
+				<input name="data[User][username]" type="text" tabIndex="1" maxlength="255" id="UserUsername" />				<span><a href="/staging/pages/forgot_username">Forgotten Username?</a></span>
+			</div>
+			<div class="pass"><label>Password</label>
+				<input type="password" name="data[User][password]" tabIndex="2" id="UserPassword" />				<span><a href="/staging/pages/forgot_password">Forgotten Password?</a></span>
+			</div>
+			<div class="button">
+				<input type="image" src="/staging/img/login_btn.png" />			</div>
+		<div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="809cf0012d0a42f8e5a1e71f11cf6c488a77ec31%3A" id="TokenFields1514045861" /></div></form>	</div>
+</div>
+<script type="text/javascript">
+function validate_manual_login() {
+	return_value = true;
+	$(".error-message-custom").hide();
+	
+	if (!$('#UserUsername').val()) {
+		buildMessage('UserUsername', 'Username is mandatory');
+		return_value = false;
+	}
+
+	if (!$('#UserPassword').val()) {
+		buildMessage('UserPassword', 'Password is mandatory');
+		return_value = false;
+	}
+	
+	return return_value;
+}
+</script>    
+     <div class="contact_wrapp_right">
+        <h2>Contact Us</h2>
+        <div class="contact_info">
+        <p class="num">01706 210045</p>
+         <p class="mail">info@coraltechnologies.co.uk</p>
+        </div>
+     </div>
+    </div>
+    <!--content-aria end -->
+    <div class="footer">
+      <div class="footer-left"></div>
+      <div class="footer-mid">
+        <div class="copyright">Copyright © 2013 Coral. All rights reserved.</div>
+        <div class="designedby">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+      </div>
+      <div class="footer-right"></div>
+    </div>
+    <!--Footer end -->
+      </div>
+  <!--container end -->
+</div>
+<!--main-wrapper end -->
+</body>
+</html>

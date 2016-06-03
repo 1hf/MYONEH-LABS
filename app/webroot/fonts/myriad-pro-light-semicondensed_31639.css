@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyriadProLightSemiCondensed';
+    src: url('myriad-pro-light-semicondensed_31639.eot');
+    src: url('myriad-pro-light-semicondensed_31639.eot') format('embedded-opentype'),
+         url('myriad-pro-light-semicondensed_31639.woff2') format('woff2'),
+         url('myriad-pro-light-semicondensed_31639.woff') format('woff'),
+         url('myriad-pro-light-semicondensed_31639.ttf') format('truetype'),
+         url('myriad-pro-light-semicondensed_31639.svg#MyriadProLightSemiCondensed') format('svg');
+}

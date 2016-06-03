@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>-- Coral Technologies --</title>
+	<link href="/Coral-Web-APP/favicon.ico" type="image/x-icon" rel="icon" /><link href="/Coral-Web-APP/favicon.ico" type="image/x-icon" rel="shortcut icon" /><link rel="stylesheet" type="text/css" href="/Coral-Web-APP/css/cake.generic.css?1415097281" /></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1></h1>
+		<a href="/Coral-Web-APP/"><img src="/Coral-Web-APP/img/logo.jpg?" border="0" alt="" /></a>		</div>
+		<div id="content">
+
+			
+			<h2>Missing Controller</h2>
+<p class="error">
+	<strong>Error: </strong>
+	<em>ImagesController</em> could not be found.</p>
+<p class="error">
+	<strong>Error: </strong>
+	Create the class <em>ImagesController</em> below in file: app\controllers\images_controller.php</p>
+<pre>
+&lt;?php
+class ImagesController extends AppController {
+
+	var $name = 'Images';
+}
+?&gt;
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app\views\errors\missing_controller.ctp</p>
+		</div>
+		<div id="footer">
+					</div>
+	</div>
+	<table class="cake-sql-log" id="cakeSqlLog_1416913897547463e9f2c5f4_00360281" summary="Cake SQL Log" cellspacing="0" border = "0"><caption>(default) 59 queries took 1388 ms</caption>	<thead>
+		<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>
+	</thead>
+	<tbody>
+	<tr><td>1</td><td>SHOW FULL COLUMNS FROM `menu_lefts`</td><td></td><td style = "text-align: right">10</td><td style = "text-align: right">10</td><td style = "text-align: right">22</td></tr>
+<tr><td>2</td><td>SELECT CHARACTER_SET_NAME FROM INFORMATION_SCHEMA.COLLATIONS WHERE COLLATION_NAME= &#039;latin1_swedish_ci&#039;;</td><td></td><td style = "text-align: right">1</td><td style = "text-align: right">1</td><td style = "text-align: right">3</td></tr>
+<tr><td>3</td><td>SHOW FULL COLUMNS FROM `case_masters`</td><td></td><td style = "text-align: right">37</td><td style = "text-align: right">37</td><td style = "text-align: right">26</td></tr>
+<tr><td>4</td><td>SELECT CHARACTER_SET_NAME FROM INFORMATION_SCHEMA.COLLATIONS WHERE COLLATION_NAME= &#039;utf8_unicode_ci&#039;;</td><td></td><td style = "text-align: right">1</td><td style = "text-align: right">1</td><td style = "text-align: right">3</td></tr>
+<tr><td>5</td><td>SHOW FULL COLUMNS FROM `users`</td><td></td><td style = "text-align: right">46</td><td style = "text-align: right">46</td><td style = "text-align: right">23</td></tr>
+<tr><td>6</td><td>SHOW FULL COLUMNS FROM `groups`</td><td></td><td style = "text-align: right">4</td><td style = "text-align: right">4</td><td style = "text-align: right">22</td></tr>
+<tr><td>7</td><td>SHOW FULL COLUMNS FROM `packages`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">21</td></tr>
+<tr><td>8</td><td>SHOW FULL COLUMNS FROM `joint_panels`</td><td></td><td style = "text-align: right">9</td><td style = "text-align: right">9</td><td style = "text-align: right">20</td></tr>
+<tr><td>9</td><td>SHOW FULL COLUMNS FROM `joint_panel_locations`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">17</td></tr>
+<tr><td>10</td><td>SHOW FULL COLUMNS FROM `joint_panel_days`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">25</td></tr>
+<tr><td>11</td><td>SHOW FULL COLUMNS FROM `payment_details`</td><td></td><td style = "text-align: right">11</td><td style = "text-align: right">11</td><td style = "text-align: right">17</td></tr>
+<tr><td>12</td><td>SHOW FULL COLUMNS FROM `companies`</td><td></td><td style = "text-align: right">9</td><td style = "text-align: right">9</td><td style = "text-align: right">29</td></tr>
+<tr><td>13</td><td>SHOW FULL COLUMNS FROM `expert_professions`</td><td></td><td style = "text-align: right">23</td><td style = "text-align: right">23</td><td style = "text-align: right">25</td></tr>
+<tr><td>14</td><td>SHOW FULL COLUMNS FROM `expert_specialties`</td><td></td><td style = "text-align: right">8</td><td style = "text-align: right">8</td><td style = "text-align: right">20</td></tr>
+<tr><td>15</td><td>SHOW FULL COLUMNS FROM `expert_specialty_masters`</td><td></td><td style = "text-align: right">6</td><td style = "text-align: right">6</td><td style = "text-align: right">26</td></tr>
+<tr><td>16</td><td>SHOW FULL COLUMNS FROM `qualifications`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">25</td></tr>
+<tr><td>17</td><td>SHOW FULL COLUMNS FROM `professional_posts`</td><td></td><td style = "text-align: right">9</td><td style = "text-align: right">9</td><td style = "text-align: right">23</td></tr>
+<tr><td>18</td><td>SHOW FULL COLUMNS FROM `expert_trainings`</td><td></td><td style = "text-align: right">6</td><td style = "text-align: right">6</td><td style = "text-align: right">23</td></tr>
+<tr><td>19</td><td>SHOW FULL COLUMNS FROM `therapy_services`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">23</td></tr>
+<tr><td>20</td><td>SHOW FULL COLUMNS FROM `appointment_type_masters`</td><td></td><td style = "text-align: right">8</td><td style = "text-align: right">8</td><td style = "text-align: right">21</td></tr>
+<tr><td>21</td><td>SHOW FULL COLUMNS FROM `slot_parents`</td><td></td><td style = "text-align: right">21</td><td style = "text-align: right">21</td><td style = "text-align: right">22</td></tr>
+<tr><td>22</td><td>SHOW FULL COLUMNS FROM `consulting_venues`</td><td></td><td style = "text-align: right">17</td><td style = "text-align: right">17</td><td style = "text-align: right">20</td></tr>
+<tr><td>23</td><td>SHOW FULL COLUMNS FROM `addresses`</td><td></td><td style = "text-align: right">21</td><td style = "text-align: right">21</td><td style = "text-align: right">31</td></tr>
+<tr><td>24</td><td>SHOW FULL COLUMNS FROM `case_claimant_details`</td><td></td><td style = "text-align: right">20</td><td style = "text-align: right">20</td><td style = "text-align: right">23</td></tr>
+<tr><td>25</td><td>SHOW FULL COLUMNS FROM `consulting_venue_images`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">16</td></tr>
+<tr><td>26</td><td>SHOW FULL COLUMNS FROM `cap_appointments`</td><td></td><td style = "text-align: right">8</td><td style = "text-align: right">8</td><td style = "text-align: right">20</td></tr>
+<tr><td>27</td><td>SHOW FULL COLUMNS FROM `cap_therapist_appointments`</td><td></td><td style = "text-align: right">8</td><td style = "text-align: right">8</td><td style = "text-align: right">21</td></tr>
+<tr><td>28</td><td>SHOW FULL COLUMNS FROM `slots`</td><td></td><td style = "text-align: right">13</td><td style = "text-align: right">13</td><td style = "text-align: right">22</td></tr>
+<tr><td>29</td><td>SHOW FULL COLUMNS FROM `appointments`</td><td></td><td style = "text-align: right">35</td><td style = "text-align: right">35</td><td style = "text-align: right">24</td></tr>
+<tr><td>30</td><td>SHOW FULL COLUMNS FROM `coral_billing_details`</td><td></td><td style = "text-align: right">12</td><td style = "text-align: right">12</td><td style = "text-align: right">27</td></tr>
+<tr><td>31</td><td>SHOW FULL COLUMNS FROM `super_user_setups`</td><td></td><td style = "text-align: right">6</td><td style = "text-align: right">6</td><td style = "text-align: right">23</td></tr>
+<tr><td>32</td><td>SHOW FULL COLUMNS FROM `communications`</td><td></td><td style = "text-align: right">8</td><td style = "text-align: right">8</td><td style = "text-align: right">18</td></tr>
+<tr><td>33</td><td>SHOW FULL COLUMNS FROM `instructor_details`</td><td></td><td style = "text-align: right">10</td><td style = "text-align: right">10</td><td style = "text-align: right">41</td></tr>
+<tr><td>34</td><td>SHOW FULL COLUMNS FROM `instructor_appointments`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">22</td></tr>
+<tr><td>35</td><td>SHOW FULL COLUMNS FROM `favourite_experts`</td><td></td><td style = "text-align: right">7</td><td style = "text-align: right">7</td><td style = "text-align: right">27</td></tr>
+<tr><td>36</td><td>SHOW FULL COLUMNS FROM `favourite_therapists`</td><td></td><td style = "text-align: right">7</td><td style = "text-align: right">7</td><td style = "text-align: right">65</td></tr>
+<tr><td>37</td><td>SHOW FULL COLUMNS FROM `admin_parent_relationships`</td><td></td><td style = "text-align: right">6</td><td style = "text-align: right">6</td><td style = "text-align: right">22</td></tr>
+<tr><td>38</td><td>SHOW FULL COLUMNS FROM `agent_instructor_services`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">26</td></tr>
+<tr><td>39</td><td>SHOW FULL COLUMNS FROM `agent_instructor_service_masters`</td><td></td><td style = "text-align: right">4</td><td style = "text-align: right">4</td><td style = "text-align: right">26</td></tr>
+<tr><td>40</td><td>SHOW FULL COLUMNS FROM `master_flags`</td><td></td><td style = "text-align: right">2</td><td style = "text-align: right">2</td><td style = "text-align: right">19</td></tr>
+<tr><td>41</td><td>SHOW FULL COLUMNS FROM `admin_child_relationships`</td><td></td><td style = "text-align: right">7</td><td style = "text-align: right">7</td><td style = "text-align: right">24</td></tr>
+<tr><td>42</td><td>SHOW FULL COLUMNS FROM `statuses`</td><td></td><td style = "text-align: right">4</td><td style = "text-align: right">4</td><td style = "text-align: right">21</td></tr>
+<tr><td>43</td><td>SHOW FULL COLUMNS FROM `therapy_specialties`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">20</td></tr>
+<tr><td>44</td><td>SHOW FULL COLUMNS FROM `therapy_specialty_masters`</td><td></td><td style = "text-align: right">4</td><td style = "text-align: right">4</td><td style = "text-align: right">23</td></tr>
+<tr><td>45</td><td>SHOW FULL COLUMNS FROM `case_accident_details`</td><td></td><td style = "text-align: right">17</td><td style = "text-align: right">17</td><td style = "text-align: right">23</td></tr>
+<tr><td>46</td><td>SHOW FULL COLUMNS FROM `case_logs`</td><td></td><td style = "text-align: right">15</td><td style = "text-align: right">15</td><td style = "text-align: right">23</td></tr>
+<tr><td>47</td><td>SHOW FULL COLUMNS FROM `case_actions`</td><td></td><td style = "text-align: right">4</td><td style = "text-align: right">4</td><td style = "text-align: right">34</td></tr>
+<tr><td>48</td><td>SHOW FULL COLUMNS FROM `case_accident_records`</td><td></td><td style = "text-align: right">15</td><td style = "text-align: right">15</td><td style = "text-align: right">22</td></tr>
+<tr><td>49</td><td>SHOW FULL COLUMNS FROM `medical_record_masters`</td><td></td><td style = "text-align: right">7</td><td style = "text-align: right">7</td><td style = "text-align: right">20</td></tr>
+<tr><td>50</td><td>SHOW FULL COLUMNS FROM `case_accident_record_users`</td><td></td><td style = "text-align: right">12</td><td style = "text-align: right">12</td><td style = "text-align: right">22</td></tr>
+<tr><td>51</td><td>SHOW FULL COLUMNS FROM `case_accident_record_files`</td><td></td><td style = "text-align: right">9</td><td style = "text-align: right">9</td><td style = "text-align: right">29</td></tr>
+<tr><td>52</td><td>SHOW FULL COLUMNS FROM `case_users`</td><td></td><td style = "text-align: right">30</td><td style = "text-align: right">30</td><td style = "text-align: right">23</td></tr>
+<tr><td>53</td><td>SHOW FULL COLUMNS FROM `fees_masters`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">25</td></tr>
+<tr><td>54</td><td>SHOW FULL COLUMNS FROM `payment_fees`</td><td></td><td style = "text-align: right">6</td><td style = "text-align: right">6</td><td style = "text-align: right">24</td></tr>
+<tr><td>55</td><td>SHOW FULL COLUMNS FROM `payment_term_venues`</td><td></td><td style = "text-align: right">10</td><td style = "text-align: right">10</td><td style = "text-align: right">22</td></tr>
+<tr><td>56</td><td>SHOW FULL COLUMNS FROM `theraphy_case_reports`</td><td></td><td style = "text-align: right">16</td><td style = "text-align: right">16</td><td style = "text-align: right">31</td></tr>
+<tr><td>57</td><td>SHOW FULL COLUMNS FROM `dnas`</td><td></td><td style = "text-align: right">12</td><td style = "text-align: right">12</td><td style = "text-align: right">22</td></tr>
+<tr><td>58</td><td>SHOW FULL COLUMNS FROM `claimant_confirmations`</td><td></td><td style = "text-align: right">3</td><td style = "text-align: right">3</td><td style = "text-align: right">24</td></tr>
+<tr><td>59</td><td>SHOW FULL COLUMNS FROM `hold_cancel_reason_masters`</td><td></td><td style = "text-align: right">5</td><td style = "text-align: right">5</td><td style = "text-align: right">27</td></tr>
+	</tbody></table>
+	</body>
+</html>

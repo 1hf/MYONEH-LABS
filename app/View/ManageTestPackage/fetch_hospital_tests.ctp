@@ -1,0 +1,1 @@
+<?php echo $this->Element('ManageTestPackage/list_clinic_test_element'); ?>
